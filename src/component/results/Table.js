@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import './table.css';
+import '../styles/table.css';
 import {useAuth} from '../../contexts/AuthContext';
 
 import DeleteMember from './DeleteMember';

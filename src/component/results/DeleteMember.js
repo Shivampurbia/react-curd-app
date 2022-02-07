@@ -1,7 +1,7 @@
 import React,{useState} from 'react';  
 import { doc,arrayRemove,updateDoc } from "firebase/firestore";
 import {useAuth} from '../../contexts/AuthContext';
-import './deletemember.css'; 
+import '../styles/deletemember.css' 
 import {db} from '../../firebase'; 
 import spinner from './785.gif';
 

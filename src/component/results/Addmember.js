@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './addmember.css';
+import '../styles/addmember.css';
 import {db} from '../../firebase'; 
 import {useAuth} from '../../contexts/AuthContext';
 import { doc,arrayUnion,updateDoc} from "firebase/firestore";
