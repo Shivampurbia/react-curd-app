@@ -1,0 +1,68 @@
+.getin-botton{
+    padding: .5rem;
+    color: white;
+    background-color: rgb(19, 66, 194);
+    text-decoration: none;
+    border: none;
+    margin: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: fit-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.cancle-botton{
+    padding: .5rem;
+    color: rgb(24, 76, 219);
+    background-color:white;
+    text-decoration: none;
+    border: 1px solid rgb(24, 76, 219);
+    margin: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: fit-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.cancle-botton:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(24, 76, 219);
+
+}
+.getin-botton:hover{
+    background-color: rgb(48, 83, 177);
+}
+.link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.781);
+    font-size: 13px;
+}
+.link:hover{
+    color: rgba(255, 255, 255, 0.911);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+  }
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+.card-body{
+    color: black;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}

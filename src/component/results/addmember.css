@@ -1,0 +1,52 @@
+.adding-card{
+    position: fixed;
+    width:90%;
+    height: 90%;
+    top:3%
+}
+.adding-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14px;
+    
+    
+}
+.submit-button{
+    border:none;
+    background-color: rgb(247, 249, 252);
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit-button:hover{
+background-color: rgb(192, 206, 218);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.adding-formdata{
+    border-radius: 1rem;
+    padding: 1rem;
+    background: rgb(255, 255, 255);
+  /* backdrop-filter: saturate(180%) blur(10px); */
+    width: 50%;
+    height: fit-content;
+    box-shadow: 7px 7px 13px black;
+
+}
+.form{
+    
+    display: flex;
+    flex-direction: column;
+}
+.delete-icon{
+
+}
+.delete-icon:hover{
+    background-color: rgba(0, 0, 0, 0.466);
+}

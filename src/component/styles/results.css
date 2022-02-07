@@ -1,0 +1,57 @@
+.result{
+    margin-top: 4rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 4px;
+    
+    min-width:min-content;
+}
+.result-header{
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    
+}
+.form-menu{
+    padding:5px;
+    border-radius: 6px;
+    margin-left: .5rem;
+    margin-right: 1.5rem;
+    color:black;
+    
+}
+.form-menu0{
+    
+    font-size: 13.5px;
+    padding: 1.5px;
+    padding-right: 6px;
+    border-radius: 6px;
+    margin-right: 1rem;
+    color:black;
+    border:1px solid rgba(0, 0, 0, 0.788);
+    background-color: white;
+
+}
+option{
+    padding: 7px;
+}
+.filter{
+    display:flex;
+}
+.drop-item{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+.drop-item:hover{
+    background-color: rgba(28, 118, 221, 0.479);
+}
+.shadow{
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px black;
+}
+

@@ -1,0 +1,25 @@
+.delete-card{
+    position: fixed;
+    top:15%;
+    width:90%;
+    height: 90%;
+   
+}
+.delete-body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 14px;
+}
+.delete-data{
+   color: black;
+    border-radius: 1rem;
+    padding: 1rem;
+    background: rgb(255, 255, 255);
+  /* backdrop-filter: saturate(180%) blur(10px); */
+    width: 50%;
+    height: fit-content;
+    box-shadow: 7px 7px 13px black; 
+}

@@ -1,0 +1,38 @@
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+}
+label{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.849);
+    font-family:sans-serif
+}
+input{
+    font-size: 14px;
+    padding: .3rem;
+    border:1.5px solid black;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.card-bottom-text{
+    font-size: small;
+}
+.alert{
+    position:fixed;
+    top:5%;
+    background-color: #c3195d;
+    color:white;
+    padding: .3rem;
+    border-radius: 4px;
+    font-size: small;
+    padding-left: 1rem;
+    padding-right: 1rem;
+ opacity: .7;
+}

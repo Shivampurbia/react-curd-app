@@ -1,0 +1,29 @@
+
+.header{
+    position:fixed;
+    top:0;
+    background-color: rgba(255, 255, 255, 0.959);
+    color: black;
+    padding: 1rem;
+    width: 100%;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+}
+.header-body{
+    display: flex;
+    width:auto; 
+    justify-content: space-between;
+    padding-right: 2.5rem;
+}
+.logout-botton{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.781);
+    border:none;
+    border-radius: 10px;
+    padding: .5rem;
+    margin: .1rem;
+    cursor: pointer;
+}
+.logout-botton:hover{
+    background-color: rgba(0, 0, 0, 0.993);
+}
