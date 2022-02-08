@@ -1,2 +1,2 @@
 ##Demo
-![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
+![](07.02.2022_19.00.55_REC.gif)
