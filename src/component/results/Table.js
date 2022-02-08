@@ -4,7 +4,7 @@ import {useAuth} from '../../contexts/AuthContext';
 
 import DeleteMember from './DeleteMember';
 function Table({data,filtercompany,status}) {
-//   console.log(status);  
+//   console.log(status);   
 //   console.log(filtercompany);  
 //   console.log(data);
   const {showDeletePopup,hideDeletionPopup} = useAuth();
