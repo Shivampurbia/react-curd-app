@@ -37,7 +37,7 @@ function Results() {
          }
         getUsers();
     //re rendering the effect everytime user add or delete data 
-    },[addMemberClicked,showDeletePopup])
+    },[showDeletePopup,addMemberClicked])
     
     //manually coded multicheckbox dropdown menu
     function dropMenuHandler(){
