@@ -3,9 +3,9 @@ import '../styles/table.css';
 import {useAuth} from '../../contexts/AuthContext';
 
 import DeleteMember from './DeleteMember';
-function Table({data,filterCity,status}) {
+function Table({data,filtercompany,status}) {
 //   console.log(status);  
-//   console.log(filterCity);  
+//   console.log(filtercompany);  
 //   console.log(data);
   const {showDeletePopup,hideDeletionPopup} = useAuth();
   const [currentId,setCurrentId] = useState(-1);
@@ -30,7 +30,7 @@ function Table({data,filterCity,status}) {
 
   </tr>
   {data.map((user,index)=>(
-    (status==="status" && filterCity.length ===0) ? 
+    (status==="status" && filtercompany.length ===0) ? 
       <tr key={index}>
         <td>{user.name.stringValue}</td>
         <td>{user.company.stringValue}</td>
@@ -45,7 +45,7 @@ function Table({data,filterCity,status}) {
         
       </tr>:
       (status==="status")?
-      (filterCity.includes(user.company.stringValue)) && <tr key={index}>
+      (filtercompany.includes(user.company.stringValue)) && <tr key={index}>
         <td>{user.name.stringValue}</td>
         <td>{user.company.stringValue}</td>
         <td>{user.status.stringValue}</td>
@@ -59,7 +59,7 @@ function Table({data,filterCity,status}) {
         
       </tr>
       :
-      (filterCity.length ===0)? (status===user.status.stringValue &&
+      (filtercompany.length ===0)? (status===user.status.stringValue &&
         <tr key={index}>
         <td>{user.name.stringValue}</td>
         <td>{user.company.stringValue}</td>
@@ -80,7 +80,7 @@ function Table({data,filterCity,status}) {
 
 
       :
-      (filterCity.includes(user.company.stringValue) && status===user.status.stringValue) && <tr key={index}>
+      (filtercompany.includes(user.company.stringValue) && status===user.status.stringValue) && <tr key={index}>
         <td>{user.name.stringValue}</td>
         <td>{user.company.stringValue}</td>
         <td>{user.status.stringValue}</td>

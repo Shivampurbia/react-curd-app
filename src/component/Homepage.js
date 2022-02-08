@@ -12,12 +12,18 @@ function Homepage() {
                      <img alt="logo" width={120} height={120} src={moonwalk}></img>
               </div>
               <div className='card-bottom'>
-                     <button className='getin-botton'>
-                            <Link className='link' to="/login">Log In</Link>
-                     </button>
-                     <button className='getin-botton'>
-                            <Link className='link' to="/signup">Sign Up</Link>
-                     </button>
+                     <Link className='link' to="/login">
+                            <button className='getin-botton'>
+                            Log In
+                            </button>
+                     </Link>
+                     
+                     <Link className='link' to="/signup">
+                            <button className='getin-botton'>
+                            Sign Up
+                            </button>
+                     </Link>
+                     
               </div>
       </div>   
       
