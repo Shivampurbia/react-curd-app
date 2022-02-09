@@ -6,7 +6,7 @@ function Homepage() {
   return <div className='container' >
       <div className='card'>
               <div className='card-body'>
-                     Welcome to React curd App
+                     Welcome to React App
               </div> 
               <div> 
                      <img alt="logo" width={120} height={120} src={moonwalk}></img>

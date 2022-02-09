@@ -17,7 +17,7 @@ function Results() {
     const usersCollection = collection(db,'users');
     const [unCheckAll,setUnCheckAll] = useState(false);
     const [selectAllClicked,setSelectAllClicked] = useState(false)
-    
+    console.log(unCheckAll);
     useEffect(()=>{
         
        //getting data of currentUser
@@ -37,7 +37,7 @@ function Results() {
          }
         getUsers();
     //re rendering the effect everytime user add or delete data 
-    },[showDeletePopup,addMemberClicked])
+    },[showDeletePopup,addMemberClicked,currentUser.email,usersCollection])
     
     //manually coded multicheckbox dropdown menu
     function dropMenuHandler(){
@@ -81,7 +81,7 @@ function Results() {
              setUnCheckAll(true)
              console.log("uncheck all")
             }
-    },[selectAllClicked])
+    },[selectAllClicked,company,users])
     function selectAllHandler(e){
         console.log("Select All Clicked ")
         selectAllClicked?setSelectAllClicked(false):setSelectAllClicked(true);

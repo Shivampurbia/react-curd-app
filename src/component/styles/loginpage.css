@@ -27,12 +27,11 @@ input{
 .alert{
     position:fixed;
     top:5%;
-    background-color: #c3195d;
+    background-color:#fd6100c2;
     color:white;
     padding: .3rem;
-    border-radius: 4px;
+    border-radius: 6px;
     font-size: small;
     padding-left: 1rem;
     padding-right: 1rem;
- opacity: .7;
 }

@@ -5,7 +5,11 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  background-color: #455d7a;
+  background: linear-gradient(to top, #09203f 0%, #537895 100%);
+  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+  
+
   color: rgba(255, 255, 255, 0.87);
   font-size: 1rem;
   font-family: Roboto, Arial, sans-serif;

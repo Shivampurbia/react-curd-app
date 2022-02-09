@@ -23,9 +23,12 @@ function DeleteMember({deletionAccount, index}) {
         notes:deletionAccount.notes.stringValue,
         status:deletionAccount.status.stringValue
     }
-    async function deleteButtonHandler(){
-        setLoading(true)    
-        hideDeletionPopup(false)
+    async function deleteButtonHandler(e){
+        e.preventDefault();
+        setLoading(true)
+        hideDeletionPopup(false);
+            
+        
         // Atomically remove a region from the "regions" array field.
         await updateDoc(delRef, {
             data: arrayRemove(deleteThisOne)
